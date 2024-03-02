@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: monospace, sans-serif;
+  color: black;
+  background-color: #ecf4f4;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+
+}
+
+h1 {
+  color: rgb(33, 33, 103);
+}
+
+.Game {
+  width: 11rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(230, 222, 210);
+}
+
+.Game h6, h5 {
+  line-height: 0px;
+}
+
+.Game img {
+  width: 11rem;
+}
+
+.List {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+
+}
